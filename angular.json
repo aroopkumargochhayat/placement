@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "test-platform-app"
+    }
+  },
+  "defaultProject": "test-platform-app",
+  "cli": {
+    "analytics": false
+  }
 }

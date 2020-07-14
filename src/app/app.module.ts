@@ -19,12 +19,17 @@ import { ChartComponent } from './components/chart/chart.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { TestFormsComponent } from './components/test-forms/test-forms.component';
 import { IndexComponent } from './components/index/index.component';
-import { CompanyComponent } from './components/company/company.component';
 import { MockInterviewComponent } from './components/mock-interview/mock-interview.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SyllabusComponent } from './components/syllabus/syllabus.component';
 import { NotesComponent } from './components/notes/notes.component';
+import { TcsComponent } from './components/company/tcs/tcs.component';
+import { CognizantComponent } from './components/company/cognizant/cognizant.component';
+import { WiproComponent } from './components/company/wipro/wipro.component';
+import { InfosysComponent } from './components/company/infosys/infosys.component';
+import { AccentureComponent } from './components/company/accenture/accenture.component';
+import { CapgeminiComponent } from './components/company/capgemini/capgemini.component';
 
 @NgModule({
   declarations: [
@@ -45,12 +50,17 @@ import { NotesComponent } from './components/notes/notes.component';
     AdminComponent,
     TestFormsComponent,
     IndexComponent,
-    CompanyComponent,
     MockInterviewComponent,
     HeaderComponent,
     FooterComponent,
     SyllabusComponent,
-    NotesComponent
+    NotesComponent,
+    TcsComponent,
+    CognizantComponent,
+    WiproComponent,
+    InfosysComponent,
+    AccentureComponent,
+    CapgeminiComponent
   ],
   imports: [
     BrowserModule,
