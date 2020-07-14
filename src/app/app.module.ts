@@ -30,6 +30,7 @@ import { WiproComponent } from './components/company/wipro/wipro.component';
 import { InfosysComponent } from './components/company/infosys/infosys.component';
 import { AccentureComponent } from './components/company/accenture/accenture.component';
 import { CapgeminiComponent } from './components/company/capgemini/capgemini.component';
+import { SyllaAccentureComponent } from './components/syllabus/sylla-accenture/sylla-accenture.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { CapgeminiComponent } from './components/company/capgemini/capgemini.com
     WiproComponent,
     InfosysComponent,
     AccentureComponent,
-    CapgeminiComponent
+    CapgeminiComponent,
+    SyllaAccentureComponent
   ],
   imports: [
     BrowserModule,

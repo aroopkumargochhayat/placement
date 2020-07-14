@@ -17,6 +17,8 @@ import { InfosysComponent } from "./components/company/infosys/infosys.component
 import { TcsComponent } from "./components/company/tcs/tcs.component";
 import { WiproComponent } from "./components/company/wipro/wipro.component";
 
+import { SyllaAccentureComponent } from "./components/syllabus/sylla-accenture/sylla-accenture.component";
+
 
 
 const routes: Routes = [
@@ -34,6 +36,7 @@ const routes: Routes = [
   { path: 'company/infosys', component: InfosysComponent },
   { path: 'company/tcs', component: TcsComponent },
   { path: 'company/wipro', component: WiproComponent },
+  { path: 'syllabus/sylla-accenture', component: SyllaAccentureComponent },
 
   // Add new paths above
   { path: '**', component: IndexComponent }
