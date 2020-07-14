@@ -22,15 +22,21 @@ import { IndexComponent } from './components/index/index.component';
 import { MockInterviewComponent } from './components/mock-interview/mock-interview.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { SyllabusComponent } from './components/syllabus/syllabus.component';
 import { NotesComponent } from './components/notes/notes.component';
+
 import { TcsComponent } from './components/company/tcs/tcs.component';
 import { CognizantComponent } from './components/company/cognizant/cognizant.component';
 import { WiproComponent } from './components/company/wipro/wipro.component';
 import { InfosysComponent } from './components/company/infosys/infosys.component';
 import { AccentureComponent } from './components/company/accenture/accenture.component';
 import { CapgeminiComponent } from './components/company/capgemini/capgemini.component';
-import { SyllaAccentureComponent } from './components/syllabus/sylla-accenture/sylla-accenture.component';
+
+import { SyllabusAccentureComponent } from './components/syllabus/syllabus-accenture/syllabus-accenture.component';
+import { SyllabusCapgeminiComponent } from './components/syllabus/syllabus-capgemini/syllabus-capgemini.component';
+import { SyllabusCognizantComponent } from './components/syllabus/syllabus-cognizant/syllabus-cognizant.component';
+import { SyllabusInfosysComponent } from './components/syllabus/syllabus-infosys/syllabus-infosys.component';
+import { SyllabusTcsComponent } from './components/syllabus/syllabus-tcs/syllabus-tcs.component';
+import { SyllabusWiproComponent } from './components/syllabus/syllabus-wipro/syllabus-wipro.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +60,6 @@ import { SyllaAccentureComponent } from './components/syllabus/sylla-accenture/s
     MockInterviewComponent,
     HeaderComponent,
     FooterComponent,
-    SyllabusComponent,
     NotesComponent,
     TcsComponent,
     CognizantComponent,
@@ -62,7 +67,12 @@ import { SyllaAccentureComponent } from './components/syllabus/sylla-accenture/s
     InfosysComponent,
     AccentureComponent,
     CapgeminiComponent,
-    SyllaAccentureComponent
+    SyllabusAccentureComponent,
+    SyllabusCapgeminiComponent,
+    SyllabusCognizantComponent,
+    SyllabusInfosysComponent,
+    SyllabusTcsComponent,
+    SyllabusWiproComponent,
   ],
   imports: [
     BrowserModule,
